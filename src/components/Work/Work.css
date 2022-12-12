@@ -1,0 +1,12 @@
+.work-content {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--container-color);
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.work-container {
+    grid-template-columns: repeat(3, 350px);
+    justify-content: center;
+    column-gap: 1.8rem;
+}
