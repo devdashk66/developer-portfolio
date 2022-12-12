@@ -10,3 +10,26 @@
     justify-content: center;
     column-gap: 1.8rem;
 }
+
+
+@media screen and (max-width: 992px) {
+    .work-container {
+        grid-template-columns: repeat(3, 218px);
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .work-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+@media screen and (max-width: 350px) {
+    .work-container {
+        grid-template-columns: max-content;
+    }
+
+}
